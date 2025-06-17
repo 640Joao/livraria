@@ -7,7 +7,7 @@ public class Main{
         p[1] = new Pessoa("Amanda", 23, "F");
 
         l[0] = new Livro("Harry Potter", "J.K Rolling", 500, p[0]);
-        l[1] = new Livro("Sei lá", "Sei lá", 100, p[1]);
+        l[1] = new Livro("Senhor dos Anéis", "J.R.R. Tolkien", 1000, p[0]);
 
         l[0].folhear(100);
         l[0].avancarPagina();
